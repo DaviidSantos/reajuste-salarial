@@ -14,7 +14,7 @@ Entrega da atividade #03 da matéria de Programação WEB com o objetivo de dese
 
 Usuários devem ser capazes de:
 
-- Ver o layout otimizado dependendo do tamanho do dispositivos em que estão acessando a página.
+- Ver o layout otimizado dependendo do tamanho do dispositivo em que estão acessando a página.
 - Calcular corretamente o reajuste salarial de um funcionário
 
 ## Screenshot
