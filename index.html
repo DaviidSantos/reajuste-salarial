@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reajuste Salarial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="heading">Reajuste Salarial</h1>
+      <p class="text">
+        Informe o salário atual do colaborador e a porcentagem de aumento para
+        calcular o salário após ajuste salarial.
+      </p>
+
+      <form class="form">
+        <div class="input-group">
+          <label for="salario-atual">Salário Atual:</label>
+          <input type="number" class="salario-atual" id="salario-atual" />
+        </div>
+
+        <div class="input-group">
+          <label for="porcentagem-aumento">Porcentagem de Aumento</label>
+          <input type="number" id="porcentagem-aumento" class="porcentagem-aumento"/>
+        </div>
+
+        <div class="salario-reajustado">
+          <h3>Salário Reajustado: </h3>
+          <span class="reajuste"></span>
+        </div>
+        <button class="submit">Calcular</button>
+      </form>
+    </section>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
